@@ -60,7 +60,7 @@ This is a PHP-based website for Tacos Beldi, a restaurant located in Taourirt. T
   ![Dashboard](https://github.com/Mostapha-El-Kaddaoui/TacosBeldi-Restaurant-Menu-Management-JS-PHP-MYSQL/blob/main/dashboard.png?raw=true)
 
 - **Meal Details (Check)**  
-  ![Check](https://github.com/Mostapha-El-Kaddaoui/TacosBeldi-Restaurant-Menu-Management-JS-PHP-MYSQL/blob/main/check.png?raw=true)
+  ![Check](https://github.com/Mostapha-El-Kaddaoui/TacosBeldi-Restaurant-Menu-Management-JS-PHP-MYSQL/blob/main/chek.png?raw=true)
 
 - **WhatsApp API (Order Example)**  
   ![WhatsApp](https://github.com/Mostapha-El-Kaddaoui/TacosBeldi-Restaurant-Menu-Management-JS-PHP-MYSQL/blob/main/whatsapp.png?raw=true)
