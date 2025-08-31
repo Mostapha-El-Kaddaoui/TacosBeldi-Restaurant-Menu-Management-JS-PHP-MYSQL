@@ -65,10 +65,5 @@ This is a PHP-based website for Tacos Beldi, a restaurant located in Taourirt. T
 - **WhatsApp API (Order Example)**  
   ![WhatsApp](https://github.com/Mostapha-El-Kaddaoui/TacosBeldi-Restaurant-Menu-Management-JS-PHP-MYSQL/blob/main/whatsapp.png?raw=true)
 
-## Contact
-
-For special orders or reservations, use the WhatsApp links provided on the site.
-
----
 
 **Copyright © 2022, All Rights Reserved For ELKADDI-Solutions**
