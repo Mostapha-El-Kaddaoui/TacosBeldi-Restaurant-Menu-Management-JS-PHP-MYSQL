@@ -1,0 +1,167 @@
+@media(max-width:970px){
+.pages{
+		display: none;
+}
+.part-of-menu {
+    height: 1090px;
+}.meal {
+    width: 47%;
+}.part-of-delevry-content {
+    width: 95%;
+}.fa-basket-shopping{
+    display: none;
+}
+}
+@media(max-width:1435px){
+   .about-us-desc {
+      left: 5%;
+    }.about-us-img {
+      right: 5%;
+    }
+}@media(max-width:1300px){
+.menu-meals-container-tm {
+    width: 90%;
+}.about-us {
+    height: 800px;
+}.about-us-desc {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}.about-us-img{
+    position: absolute;
+    top: 435px;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+}@media(max-width:700px){
+.footer-desc {
+   display: none;
+}.home-midlle-title h1 {
+    font-size: 50px;
+}.buthome-check {
+    width: 110px;
+}.home-midlle-title {
+    top: 50%;
+}.buthome-check {
+    top: 15%;
+}.about-us-desc {
+    top: 50px;
+}.about-us-img {
+    top: 400px;
+    width: 100%;
+}.about-us-img-border {
+    width: 100%;
+    border:none;
+}.about-us-img-v {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+}.about-us {
+    height: 765px;
+}.reserve-cord-content {
+    width: 95%;
+}.delivery-uli {
+    left: 0px;
+    width: 100%;
+    height: 410px;
+}.delivery-c {
+    top: 430px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+}.delivery-work {
+    margin-top: 0px;
+    width: 49%;
+    height: 280px;
+}.delivery-add {
+    width: 49%;
+    height: 280px;
+    margin-right: 25px;
+}
+}@media(max-width:600px){
+.about-us-desc-para {
+    width: 100%;
+}
+.about-us-desc {
+    width: 90%;
+}.meal {
+    width: 100%;
+    margin-left: 0%;
+}.part-of-menu {
+   height: 2035px;
+}.delivery-c {
+    display: block;
+}.delivery-add {
+    width: 100%;
+    margin-right: 0px;
+}.delivery-work {
+    margin-top: 20px;
+    width: 100%;
+}.part-of-delevry {
+    height: 1190px;
+}.homebackground {
+    height: 370px;
+}.home-ch-foot {
+    height: 90px;
+}.home-midlle-title h1 {
+    font-size: 40px;
+}.buthome-check {
+    width: 100px;
+    padding: 8px;
+}.element-title h4 {
+    font-size: 38px;
+}.element-title h3 {
+    font-size: 20px;
+
+}.reserve-cord-content h3 {
+    font-size: 25px;
+}.reserve-cord-content h3 span {
+    font-size: 25px;
+}
+.reserve-cord-content h4 {
+    font-size: 35px;
+}
+}@media(max-width:450px){
+   .about-us-desc-para p {
+    font-size: 13px;
+    line-height: 25px;
+}.delivery-uli-title {
+    font-size: 70px;
+}.all-rights-re p {
+    padding: 0px;
+    font-size: 10px;
+}.home-midlle-title h1 {
+    font-size: 35px;
+}.about-us-desc {
+    top: 25px;
+}.about-us-img {
+    top: 340px;
+}.about-us {
+    height: 680px;
+}.menu-meals-container {
+    top: 95px;
+}.meal{
+    height: 280px;
+}.part-of-menu {
+   height: 1890px;
+}.part-of-delevry-title {
+    top: 30px;
+}.part-of-delevry-content {
+    top: 120px;
+}.part-of-delevry {
+    height: 1160px;
+}.logo {
+    left: 13%;
+}.reserve-cord {
+    height: 260px;
+}
+
+}
+
+
+
+
+
+

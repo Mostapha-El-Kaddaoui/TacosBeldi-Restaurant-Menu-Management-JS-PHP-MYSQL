@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}.navegatedbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}.homemenubackground{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://images.pexels.com/photos/4552131/pexels-photo-4552131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}.graybackground{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.6) 100%, rgba(28, 28, 28, 0.6) 100%);
+}.menu-title{
+     position: absolute;
+     top: 190px;
+     left: 50%;
+     transform: translate(-50%,0%);
+     text-align: center;
+}.menu-title h1{
+    font-size:50px;
+    font-family: 'Romela', sans-serif;
+    font-weight: bold;
+    margin-block: 0;
+    margin-inline: 0px;
+    color: white;
+    animation: titlemove 3s ;
+}.menu-title p{
+    margin-top: 20px;
+    font-size:13px;
+    font-family: 'Romela', sans-serif;
+    font-weight: bold;
+    color: white;
+    animation: titlemove 3s ;
+}.contai-meals{
+    position: relative;   
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+.c-contai-meals{
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 80%;
+    height:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}.meal{
+    display: inline-block;
+    width: 31%;
+    height: 300px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}.gray-meal{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e4d;
+    cursor: pointer;
+}.meal-name{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'romela', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}.meal-prix{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-family: 'Major Mono Display', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color: #f9f548db;
+    border-radius: 2px;
+    padding: 5px;
+    z-index: 1;
+}.footerbarre{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+}.somthing-special{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 220px;
+    background-image: url('https://images.pexels.com/photos/3682838/pexels-photo-3682838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}.gray-somthing-special{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e94;
+    cursor: pointer;
+}.somthing-special-c{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}.somthing-special-c h4{
+    font-family: 'romela', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}.somthing-special-c h5 a{
+    font-family: 'Jelita', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 5px;
+    color: #f9f548db;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+}.contai-poiss{
+    position: relative;   
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+.menu-title {
+    width: 75%;
+}.homemenubackground {
+    height: 310px;
+}.menu-title {
+    top: 140px;
+}.logo img {
+    width: 70px;
+}.somthing-special-c h4 {
+    font-size: 25px;
+}.somthing-special-c h5 {
+    font-size: 30px;
+}.c-contai-meals {
+    width: 90%;
+}
+
+}

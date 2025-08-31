@@ -1,0 +1,473 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.homebackground{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url('https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    
+  }.graybackground{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.6) 100%, rgba(28, 28, 28, 0.6) 100%);
+  }.navegatedbar{
+     position: relative;
+     top: 0px;
+     left: 0px;
+     z-index: 1;
+  }.home-midlle-title{
+     position: absolute;
+     top: 53%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 100%;
+     animation: titlemove 0.9s ;
+  }.home-midlle-title h1{
+    font-size:70px;
+    font-family: 'Romela', sans-serif;
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    animation: titlemove 3s ;
+  }.tacos-beldi-home{
+    color:#ffe941;
+    text-shadow: 0px 0px 20px #ffec59;
+  }.description-home{
+    color: white;
+    
+  }
+  @keyframes titlemove {
+  from {left: 0%; color:#00000000;}
+  to {left: 50%;}
+  }.home-ch-foot{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 100%;
+    height: 225px;
+  }.info-delev:hover{
+    font-weight: bold;
+  }@keyframes butinfomove {
+  from {left: 0%; border-color: #00000000;}
+  to {left: 50%; border-color: #ffe941;}
+  }.buthome-check{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 130px;
+    background:none;
+    font-family: 'Romela', sans-serif ;
+    font-weight: bold;
+    color:#ffe941;
+    border: solid 2px #ffe941;
+    border-radius:2px;
+    cursor: pointer;
+    animation: butinfomove 0.9s ;
+  }.buthome-check:hover{
+    color: white;
+    background-color: #ffe941;
+    transition: 0.5s;
+  }.about-us{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 460px;
+    background-color: white;
+  }.about-us-desc{
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    height: auto;
+    width: auto;
+  }.element-title{
+    text-align: center;
+  }.element-title h4{
+    font-family: 'Jelita', sans-serif;
+    font-size:45px;
+    color: #ebebeb;
+    margin: 0;
+    padding: 0;
+  }.element-title h3{
+    font-family:'romela', sans-serif;
+    font-weight: bold;
+    font-size:28px;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }.about-us-desc-para{
+    text-align: center;
+    width: 550px;
+    margin-top: 20px;
+  }.about-us-desc-para p{
+    font-family:'btc-gaming', sans-serif;
+    font-size:15px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    line-height: 35px;
+  }.about-us-desc-button{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }.about-us-desc-button button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 130px;
+    background:none;
+    font-family:'btc-gaming', sans-serif;
+    font-weight: bold;
+    color:#ffe941;
+    border: solid 2px #ffe941;
+    border-radius:2px;
+    cursor: pointer;
+  }.about-us-img{
+    position: absolute;
+    top: 90px;
+    right: 10%;
+    height: auto;
+    width: auto;
+  }.about-us-img-border{
+    height: 310px;
+    width: 560px;
+    background-color: white;
+    border: 5px solid transparent;
+    border-image-repeat: repeat;
+    border-image-slice: 10;
+    border-image-source:  url('https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  }.about-us-img-v{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    height: 320px;
+    width: 570px;
+    background-image: url('https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    cursor: pointer;
+    filter: brightness(0.75);
+    transition: 0.5s;
+  }.about-us-img-v:hover{
+    bottom: 0px;
+    right: 0px;
+  }.part-of-menu {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 810px;
+}.part-of-menu-title{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }.part-of-menu-title-p{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+
+
+  }.menu-meals-container{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }.menu-meals-container-tm{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 100%;
+    width: 80%;
+    text-align: center;
+  }.meal{
+    display: inline-block;
+    width: 31%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+  }.meal div{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e4d;
+    cursor: pointer;
+    transition: 0.5s;
+  }.meal div:hover{
+    background-color: #1e1e1e94;
+  }
+  .meal-1{
+     background-image: url('https://img.freepik.com/photos-gratuite/doner-viande-dans-du-pain-pita-planche-bois_140725-9872.jpg?w=996&t=st=1661890151~exp=1661890751~hmac=3d3f305109174eff9f70620df3871f49c2152cff061ff9ed0ecf7b16805ddbda');
+  }.meal-2{
+     background-image: url('https://img.freepik.com/photos-gratuite/vue-laterale-double-cheeseburger-galettes-boeuf-grillees-du-laitue-entre-pains-hamburger_141793-4883.jpg?w=996&t=st=1661890345~exp=1661890945~hmac=4ef5b774525f7cec440f85b890f0f12207b81045f67bcc6bc52b8da3e9ef2b64');
+  }.meal-3{
+     background-image: url('https://food.blk.ma/upload/1646146982-Pasticcio1.jpg');
+  }.meal-4{
+     background-image: url('https://img.freepik.com/photos-gratuite/vue-laterale-sandwich-au-poulet-dans-du-pain-frites-tomates-champignons-aux-epices_141793-12984.jpg?w=996&t=st=1661894123~exp=1661894723~hmac=519d614a5bf0689667b54847f5b2273d8bc0a88ccb152a55dcce81ca95f7338c');
+  }.meal-5{
+     background-image: url('https://www.chatelaine.com/wp-content/uploads/2020/02/Tagine-istock-feature-image-810x608.jpg');
+  }.meal-6{
+     background-image: url('https://img.freepik.com/photos-premium/variete-jus-fruits-smoothies-aux-fruits_434193-3565.jpg?w=996');
+  }.meal-name{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'romela', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+    margin: 0;
+  }.reserve-cord{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 350px;
+    background-image: url('https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  }.gray-reserve{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.8) 0%, rgba(28, 28, 28, 0.6) 100%, rgba(28, 28, 28, 0.6) 100%);
+  }.reserve-cord-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55%;
+    height: auto;
+    text-align: center;
+  }.reserve-cord-content h3{
+    font-family:'romela', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+  }.reserve-cord-content h3 span{
+    font-family: 'Major Mono Display', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+  }.reserve-cord-content h4 a{
+    font-family: 'Jelita', sans-serif;
+    font-size:50px;
+    margin: 0;
+    padding: 10px;
+    color: #f9f548db;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+  }.part-of-delevry{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 890px;
+  }.part-of-delevry-title{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }.part-of-delevry-content{
+    position: relative;
+    top: 145px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 77%;
+    height: 690px;
+  }.delivery-c{
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .delivery-add{
+    width: 33%;
+    height: 410px;
+    background-image: url('https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+  }.delivery-work{
+    margin-top: 20px;
+    width: 33%;
+    height: 260px;
+    background-image: url('https://images.pexels.com/photos/2103949/pexels-photo-2103949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+  }.delivery-uli{
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    width: 65%;
+    height: 690px;
+    background-image: url('https://images.unsplash.com/photo-1621972750749-0fbb1abb7736?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-size: cover;
+
+  }.delivery-uli-gray{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#1e1e1e69;
+  }.delivery-add div div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    width: max-content;
+    text-align: center;
+  }.delivery-add-title{
+    font-family: 'Romela', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0px;
+    margin-block: 0px;
+    margin-inline: 0px;
+    color: white;
+  }.delivery-add-para{
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    line-height: 20px;
+    font-weight: bold;
+    max-width: 260px;
+    color: white;
+  }.delivery-add-gray{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#1e1e1e69;
+  }.delivery-work-gray div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    width: max-content;
+    text-align: center;
+  }.delivery-work-title{
+    font-family: 'Romela', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0px;
+    margin-block: 0px;
+    margin-inline: 0px;
+    color: white;
+  }.delivery-work-para{
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    line-height: 20px;
+    font-weight: bold;
+    max-width: 260px;
+    color: white;
+  }.delivery-uli-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    width: max-content;
+    text-align: center;
+  }.delivery-uli-para{
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    line-height: 20px;
+    font-weight: bold;
+    max-width: 260px;
+    color: white;
+  }.delivery-uli-title{
+    font-family: 'Jelita', sans-serif;
+    font-size: 95px;
+    padding: 5px;
+    margin: 0px;
+    margin-block: 0px;
+    margin-inline: 0px;
+    color: white;
+  }.delivery-work-gray{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#1e1e1e69;
+  }.the-map{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+  }.footerbarre{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .slide{
+    position: absolute;
+    top: 8000px;
+    left: 0px;
+  }
